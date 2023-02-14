@@ -1,0 +1,24 @@
+.login1,
+.login2 {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	padding: 10px;
+}
+
+#btnSend1,
+#btnSend2 {
+	background-color: aqua;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+	width: 50%;
+}
+#stop {
+	width: 50%;
+	padding: 10px;
+}
+#stop {
+	background-color: red;
+	border-radius: 10px;
+}
