@@ -32,6 +32,12 @@ const displayMess2 = (e) => {
     dit ${loginMess2.value}</p>`;
 };
 
+//Reset btn
+btnReset.addEventListener('click', reset);
+const reset = () => {
+	displayText.textContent += '';
+};
+
 //stop btn
 btnStop.addEventListener('click', (e) => {
 	e.preventDefault();

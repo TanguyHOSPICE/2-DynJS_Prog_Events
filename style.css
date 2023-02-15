@@ -9,7 +9,6 @@ body {
 	width: 100%;
 	padding: 10px;
 }
-
 #btnSend1,
 #btnSend2 {
 	background-color: aqua;
@@ -22,8 +21,6 @@ body {
 #stop {
 	width: 50%;
 	padding: 10px;
-}
-#stop {
 	background-color: red;
 	border-radius: 10px;
 }
