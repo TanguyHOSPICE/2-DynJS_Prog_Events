@@ -23,22 +23,25 @@ btnSend2.addEventListener('click', (e) => {
 });
 
 //Messages
-const displayMess1 = (e) => {
+const displayMess1 = () => {
 	displayText.innerHTML += `<p class='message'>${loginInput1.value}
-    dit ${loginMess1.value}</p>`;
+    dit : ${loginMess1.value}</p>`;
 };
-const displayMess2 = (e) => {
+const displayMess2 = () => {
 	displayText.innerHTML += `<p class='message'>${loginInput2.value}
-    dit ${loginMess2.value}</p>`;
+    dit : ${loginMess2.value}</p>`;
 };
 
+//Déclare la fonction reset
+const reset = () => {
+	displayText.innerHTML = '';
+};
 //Reset btn
 btnReset.addEventListener('click', reset);
-const reset = () => {
-	displayText.textContent += '';
-};
 
 //stop btn
 btnStop.addEventListener('click', (e) => {
-	e.preventDefault();
+	btnSend1.setAttribute('disabled', 'disabled');
+	btnSend1.style.background = 'red';
+	btnSend1.innerText = 'Bloqué';
 });

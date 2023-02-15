@@ -9,6 +9,10 @@ body {
 	width: 100%;
 	padding: 10px;
 }
+.btn-box {
+	display: flex;
+	margin-top: 5px;
+}
 #btnSend1,
 #btnSend2 {
 	background-color: aqua;
