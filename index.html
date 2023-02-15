@@ -12,27 +12,37 @@
 
 <body>
 
-    <div class="login1">
-        <label for="nickname1">Enter your nickname: </label>
-        <input type="text" name="nickname1" id="nickname1">
-        <label for="message">Enter your message: </label>
-        <input type="text" name="message" id="message">
-        <button id="btnSend1">Envoyer</button>
+    <div id="left-block">
+        <h3>Participant 1 : </h3>
+        <div class="login1">
+            <label for="nickname1">Enter your nickname: </label>
+            <input type="text" name="nickname1" id="nickname1">
+            <label for="message">Enter your message: </label>
+            <input type="text" name="message" id="message">
+            <button id="btnSend1">Envoyer</button>
+        </div>
+
+        <h3>Participant 2 : </h3>
+        <div class="login2">
+            <label for="nickname2">Enter your nickname: </label>
+            <input type="text" name="nickname2" id="nickname2">
+            <label for="message2">Enter your message: </label>
+            <input type="text" name="message2" id="message2">
+
+            <div class="btn-box">
+                <button id="btnSend2">Envoyer</button>
+                <button id="stop">Stop</button>
+            </div>
+        </div>
+    </div>
+    <div id="right-block">
+        <div id="display-text"></div>
+        <button id="reset">Rafraichir</button>
     </div>
 
-    <div class="login2">
-        <label for="nickname2">Enter your nickname: </label>
-        <input type="text" name="nickname2" id="nickname2">
-        <label for="message">Enter your message: </label>
-        <input type="text" name="message" id="message">
-        <button id="btnSend2">Envoyer</button>
-        <button id="stop">Stop</button>
-    </div>
 
 
-    <button id="reset">Rafraichir</button>
-    <p id="display-text"></p>
-
+    <script src="/script.js"></script>
 </body>
 
 </html>
